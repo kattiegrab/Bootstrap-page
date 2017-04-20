@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+body {
+	font-family: Raleway, sans-serif;
+}
+/* ....................... Jumbotron and Nav..................... */
+.jumbotron {
+	background: url(https://images.pexels.com/photos/21387/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb) 0/cover no-repeat;
+	height: 80vh;
+}
+.jumbotron .container h1, .jumbotron .container p {
+	color: white;
+}
+.jumbotron .container h1 {
+	margin-top: 20%;
+}
+.nav > li > a {
+	color: white;
+	margin-right: 20px;
+	font-weight: 700;
+}
+/* ....................... Informations ...................... */
+.informations {
+	margin-bottom: 110px;
+}
+.informations img {
+	margin-top: 110px;
+}
+/* ............................ Gallery ........................ */
+.img-1 { background: url(https://images.pexels.com/photos/296878/pexels-photo-296878.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-2 { background: url(https://images.pexels.com/photos/3327/construction-work-carpenter-tools.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-3 { background: url(https://images.pexels.com/photos/27665/pexels-photo-27665.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-4 { background: url(https://images.pexels.com/photos/227706/pexels-photo-227706.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-5 { background: url(https://images.pexels.com/photos/31323/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-6 { background: url(https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.img-7 { background: url(https://static.pexels.com/photos/35107/pexels-photo.jpg); }
+.img-8 { background: url(https://images.pexels.com/photos/297755/pexels-photo-297755.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb); }
+.images {
+	background-size: cover;
+	background-position: center;
+	height: 350px;
+}
+.photo {
+	padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.layer:hover {
+	background-color: rgba(232, 69, 69, 0.9);
+	height: 350px;
+}
+.layer h5, .layer p {
+  margin: 0 auto;
+  font-size: 15px;
+  visibility: hidden; 
+}
+.layer:hover h5, .layer:hover p {
+	visibility: visible;
+}
+/* ................................. Team ..................... */
+.team {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.team i {
+	width: 40px;
+	line-height: 40px;
+	height: 40px;
+	border: 1px solid #e8ecee;
+	background-color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	color: #c6cacc;
+}
+.team i:hover {
+	border-color: #fff;
+	color: #fff;
+	background-color: #c6cacc;
+}
+/*.............................. Quote ............................. */
+.no-border {
+ 	padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.carousel .item img {
+	height: 500px; 
+}
+/* ............................. Download ........................... */
+.download h1 {
+	margin-top: 100px;
+	color: #2d3033;
+	font-size: 28px;
+	font-weight: 300;
+	font-family: Raleway;
+}
+.download button {
+	margin-top: 40px;
+	margin-bottom: 100px;
+	width: 280px;
+	height: 46px;
+	border-radius: 2px;
+	background-color: #e84545;
+}
+/* ................................ Location&Share ................... */
+.locationshare {
+	background-color: #3a3e64;
+	color: #fff;
+}
+.locationshare h5 {
+	font-weight: 700;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.locationshare p {
+	margin-bottom: 100px;
+}
+.locationshare i {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 2px solid #ffffff;
+	background-color: rgba(255, 255, 255, 0);
+	font-size: 20px;
+}
+.locationshare i:hover {
+	color: #3a3e64;
+	border-color: #3a3e64;
+	background-color: #fff;
+}
+/* ............................. Footer ........................... */
+.footer {
+	background-color: #313454;
+	color: #808080;
+}

@@ -1,0 +1,4 @@
+>>> Sass is watching for changes. Press Ctrl-C to stop.
+      error No such file or directory @ rb_sysopen - input.sass
+>>> New template detected: pliki strony/style.scss.sass
+>>> Deleted template detected: style.scss.sass
