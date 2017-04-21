@@ -19,6 +19,9 @@ body {
 	margin-right: 20px;
 	font-weight: 700;
 }
+.nav > li:hover > a {
+	background-color: #505D70;
+}
 .jumbotron button {
 	width: 200px;
 	height: 46px;
@@ -239,4 +242,13 @@ figure.effect-bubba:hover p {
 }
 .white {
 	color: white;
+}
+@media screen and (max-width: 768px) {
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+	.jumbotron p {
+		font-size: 15px;
+	}
+}
 }
