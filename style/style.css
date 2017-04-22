@@ -179,16 +179,15 @@ figure.effect-bubba:hover p {
     padding-right: 0 !important;
 }
 .carousel .item img {
-	height: 500px; 
+	
 }
 .quote .item h2 {
 	font-style: italic;
 	font-family: 'Cardo', serif;
-	font-size: 36px;
 }
 .carousel-caption {
 	bottom: 0;
-	top: 100px;
+	top: 80px;
 	text-align: left;
 }
 /* ............................. Download ........................... */
@@ -243,12 +242,63 @@ figure.effect-bubba:hover p {
 .white {
 	color: white;
 }
-@media screen and (max-width: 768px) {
+/* ......................... Media Queries .................... */
+
+@media (max-width: 767px) {
 	.jumbotron h1 {
 		font-size: 25px;
 	}
 	.jumbotron p {
 		font-size: 15px;
 	}
+	.carousel .item img {
+		height: auto;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.carousel-caption {
+		top: 0;
+	}
 }
+@media (min-width: 768px) and (max-width: 979px) {
+	.jumbotron h1 {
+		font-size: 20px;
+	}
+	.jumbotron p {
+		font-size: 12px;
+	}
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+	.jumbotron h1 {
+		font-size: 35px;
+	}
+	.jumbotron p {
+		font-size: 18px;
+	}
+	.carousel .item img {
+		height: auto;
+
+	}
+	h2 {
+		font-size: 20px;
+	}
+	.carousel-caption {
+		top: 0;
+	}
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+	.jumbotron h1 {
+		font-size: 25px;
+	}
+	.jumbotron p {
+		font-size: 15px;
+	}
+	.carousel-caption {
+		top: 0;
+	}
+	h2 {
+		font-size: 20px;
+	}
 }
