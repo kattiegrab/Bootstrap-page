@@ -6,7 +6,7 @@ body {
 /* ....................... Jumbotron and Nav..................... */
 .jumbotron {
 	background: url(https://images.pexels.com/photos/21387/pexels-photo.jpg?w=1260&h=750&auto=compress&cs=tinysrgb) 0/cover no-repeat;
-	height: 80vh;
+	height: 100vh;
 }
 .jumbotron .container h1, .jumbotron .container p {
 	color: white;
